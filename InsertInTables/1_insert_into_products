@@ -1,0 +1,19 @@
+
+USE storefront;
+
+INSERT INTO products (product_name, product_price, product_quantity, date_added) 
+VALUES
+('Taro Leaves', 733, 4667, '2021-12-08'),
+('Appetizer - Southwestern', 827, 2261, '2021-11-09'),
+('Nougat - Paste / Cream', 808, 4299, '2022-02-28'),
+('Cauliflower', 980, 3776, '2022-04-29'),
+('Pork - Suckling Pig', 701, 4012, '2022-09-02'),
+('Coriander - Ground', 844, 1020, '2022-06-08'),
+('Juice - Grapefruit, 341 Ml', 576, 4699, '2022-10-19'),
+('Foam Tray S2', 792, 3512, '2021-12-07'),
+('Juice - Propel Sport', 324, 4489, '2022-07-21'),
+('Chinese Foods - Cantonese', 891, 2227, '2022-10-02');
+
+USE storefront;
+
+DESC products;
